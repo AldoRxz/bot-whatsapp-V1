@@ -1,0 +1,311 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3A4ED87D999DB01D417A',
+    participant: undefined
+  },
+  messageTimestamp: 1729877485,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    },
+    viewOnceMessageV2: FutureProofMessage { message: [Message] }
+  },
+  body: '',
+  from: '5213315759943'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3A0FAFEC73B849DE0A6A',
+    participant: undefined
+  },
+  messageTimestamp: 1729878383,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    stickerMessage: StickerMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.15575-24/55675190_2951541088334887_7651567754739644136_n.enc?ccb=11-4&oh=01_Q5AaIMmPpE9cDCaARTMD96T6yO2jTHIM6ODZCvuGFeFKt7Ln&oe=6743444F&_nc_sid=5e03e0&mms3=true',
+      fileSha256: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      mediaKey: [Uint8Array],
+      mimetype: 'image/webp',
+      directPath: '/v/t62.15575-24/55675190_2951541088334887_7651567754739644136_n.enc?ccb=11-4&oh=01_Q5AaIMmPpE9cDCaARTMD96T6yO2jTHIM6ODZCvuGFeFKt7Ln&oe=6743444F&_nc_sid=5e03e0',
+      fileLength: [Long],
+      mediaKeyTimestamp: [Long],
+      firstFrameLength: 13838,
+      firstFrameSidecar: [Uint8Array],
+      isAnimated: true,
+      stickerSentTs: [Long],
+      isAvatar: false
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_media__99511807-273b-4630-8aae-faa3aa1ff11f',
+  from: '5213315759943'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3A85A8472869C9540B0A',
+    participant: undefined
+  },
+  messageTimestamp: 1729878385,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5213315759943'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ccee5c7a-e650-4b0b-9eb7-a91fa386e5bb',
+  keyword: 'key_1544518c-8b2b-4a56-9e11-9c129bcf6c27',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'c69a208ed9b0a63759d94d37aeedd767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8261ebef-28a2-4da9-acdb-15172542d0bf',
+  keyword: 'ans_ccee5c7a-e650-4b0b-9eb7-a91fa386e5bb',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e3c21b9c5d8e857fbc46d2ca02df470e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3A4EEB093D084F216DF8',
+    participant: undefined
+  },
+  messageTimestamp: 1729878392,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    conversation: 'Doc',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Doc',
+  from: '5213315759943'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f9473407-394f-4191-bcad-7753f4b69927',
+  keyword: 'key_2fd3f918-8bc5-472e-afed-e7b674aacf2c',
+  answer: '📄 Aquí encontras las documentación recuerda que puedes mejorarla\n' +
+    'https://bot-whatsapp.netlify.app/\n' +
+    '\n' +
+    '*2* Para siguiente paso.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'fd331dafde342be8544f41d6438eb664'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3A230DC6EE82F77F044C',
+    participant: undefined
+  },
+  messageTimestamp: 1729878402,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '5213315759943'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_88a90e86-e4d5-44ad-adcd-15c758b01d80',
+  keyword: 'key_8c9566f3-8596-494e-bee3-68034733730f',
+  answer: '📄 Aquí tenemos el flujo secundario',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '8fdc8ed71431d5e5ce5be23d34b26e04'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3A13A7A5A9577F2DDBE6',
+    participant: undefined
+  },
+  messageTimestamp: 1729878412,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5213315759943'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ccee5c7a-e650-4b0b-9eb7-a91fa386e5bb',
+  keyword: 'key_1544518c-8b2b-4a56-9e11-9c129bcf6c27',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'c69a208ed9b0a63759d94d37aeedd767'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8261ebef-28a2-4da9-acdb-15172542d0bf',
+  keyword: 'ans_ccee5c7a-e650-4b0b-9eb7-a91fa386e5bb',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e3c21b9c5d8e857fbc46d2ca02df470e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3AF0016128BF44178676',
+    participant: undefined
+  },
+  messageTimestamp: 1729878428,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    conversation: 'Gracias',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Gracias',
+  from: '5213315759943'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e4d456d3-dd84-4689-b25c-7aef8d7786d0',
+  keyword: 'key_b86dc660-4bfd-4433-abe2-4cea0d9e8ba1',
+  answer: '🚀 Puedes aportar tu granito de arena a este proyecto\n' +
+    '[*opencollective*] https://opencollective.com/bot-whatsapp\n' +
+    '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez\n' +
+    '[*patreon*] https://www.patreon.com/leifermendez\n' +
+    '\n' +
+    '*2* Para siguiente paso.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'dddf04e4eeb5e4c2fe1e8bed91382589'
+}
