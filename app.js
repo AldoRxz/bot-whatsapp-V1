@@ -1,72 +1,52 @@
-const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
+const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot')
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
 
-const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
-
-
-const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswer(
-    [
-        '📄 Aquí encontras las documentación recuerda que puedes mejorarla',
-        'https://bot-whatsapp.netlify.app/',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
-    [
-        '🙌 Aquí encontras un ejemplo rapido',
-        'https://bot-whatsapp.netlify.app/docs/example/',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
-    [
-        '🚀 Puedes aportar tu granito de arena a este proyecto',
-        '[*opencollective*] https://opencollective.com/bot-whatsapp',
-        '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez',
-        '[*patreon*] https://www.patreon.com/leifermendez',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowDiscord = addKeyword(['discord']).addAnswer(
-    ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
-    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
+const flowPrincipal = addKeyword(EVENTS.WELCOME)
+    .addAnswer('🙌 Hola bienvenido mi nombre es Ana y por hoy sere la asistente de el Sr.Aldo')
     .addAnswer(
         [
-            'te comparto los siguientes links de interes sobre el proyecto',
-            '👉 *doc* para ver la documentación',
-            '👉 *gracias*  para ver la lista de videos',
-            '👉 *discord* unirte al discord',
+            'Como tipo de conversacion querias tener con Aldo el dia de hoy?',
+            '👉 *cita* para agendar una cita con el Sr.Aldo algun dia de la semana',
+            '👉 *proyect*  para ver la lista de los proyectos que tiene activos',
+            '👉 *media* recibe informacion más visual',
+            '👉 *discord* unirte al discord y obten más información',
         ],
         null,
         null,
-        [flowDocs, flowGracias, flowTuto, flowDiscord]
+        [flowEnviarMedia]
     )
+
+const flowEnviarMedia = addKeyword('media')
+    .addAnswer(
+        [
+
+        ]
+    )
+
+const flowNotaVoz = addKeyword(EVENTS.VOICE_NOTE)
+    .addAnswer('Dame un momento para escuchar la nota de voz')
+
+const flowRecibirMedia = addKeyword(EVENTS.MEDIA)
+    .addAnswer('He recibido tu foto o video')
+    
+const flowLocation = addKeyword(EVENTS.LOCATION)
+    .addAnswer('Ohh ya veo donde estas')
+
+const flowDocumento = addKeyword(EVENTS.DOCUMENT)
+    .addAnswer('Documento PDF recibido')
+
+const flowAction = addKeyword(EVENTS.ACTION)
+    .addAnswer('Documento PDF recibido')
+
+
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal])
+    const adapterFlow = createFlow([flowPrincipal, flowNotaVoz])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
