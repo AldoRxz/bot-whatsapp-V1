@@ -1,8 +1,12 @@
-const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot')
+require("dotenv").config();
+const { createProvider } = require("@bot-whatsapp/bot");
+// const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot')
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
+
+const ChatGPTClass = require('./chatgpt_class')
 
 
 /** addAnswer
@@ -14,6 +18,24 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 */
 
 
+const createBotChatGpt = async ({ provider, database }) => {
+    return new ChatGPTClass(database, provider)
+  }
+  
+  const main = async () => {
+    const adapterDB = new MockAdapter();
+  
+    const adapterProvider = createProvider(BaileysProvider);
+  
+    createBotChatGpt({
+      provider: adapterProvider,
+      database: adapterDB,
+    });
+  
+    QRPortalWeb();
+  };
+  
+  main();
 
 
 // const flujoDeProductos = addKeyword('catalogo')
@@ -100,18 +122,18 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 // //////////////////////////////////////////////////////////
 
 
-const main = async () => {
-    const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal])
-    const adapterProvider = createProvider(BaileysProvider)
+// const main = async () => {
+//     const adapterDB = new MockAdapter()
+//     const adapterFlow = createFlow([flowPrincipal])
+//     const adapterProvider = createProvider(BaileysProvider)
 
-    createBot({
-        flow: adapterFlow,
-        provider: adapterProvider,
-        database: adapterDB,
-    })
+//     createBot({
+//         flow: adapterFlow,
+//         provider: adapterProvider,
+//         database: adapterDB,
+//     })
 
-    QRPortalWeb()
-}
+//     QRPortalWeb()
+// }
 
-main()
+// main()

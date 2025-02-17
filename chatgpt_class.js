@@ -1,10 +1,11 @@
 require('dotenv').config();
 const { CoreClass } = require('@bot-whatsapp/bot');
+// import OpenAI from "openai";
 
 
 class ChatGPTClass extends CoreClass {
   queue = [];
-  optionsGPT = { model: "gpt-3.5-turbo" };
+  optionsGPT = { model: "gpt-4o-mini" };
   openai = undefined;
 
   constructor(_database, _provider) {
@@ -24,6 +25,11 @@ class ChatGPTClass extends CoreClass {
     );
   };
 
+
+
+  /**
+   * Esta funciona manda mensaje a wasa
+   */
   handleMsg = async (ctx) => {
 
     const { from, body } = ctx

@@ -2,3 +2,6 @@ bot.qr.png
 .env
 node_modules
 bot_sessions
+
+core.class.log
+queue.class.log
