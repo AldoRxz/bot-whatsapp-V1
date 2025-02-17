@@ -1,17 +1,19 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '573238686639@s.whatsapp.net',
+    remoteJid: '5213314515327@s.whatsapp.net',
     fromMe: false,
-    id: '3A8D38BEED8B66CD8CBB',
+    id: 'ED098091EBE2F0153CDADBC21C140170',
     participant: undefined
   },
-  messageTimestamp: 1732582434,
-  pushName: 'Estefa ฅ⁠^⁠•⁠ﻌ⁠•⁠^⁠ฅ',
+  messageTimestamp: 1737058507,
+  pushName: 'Aldo S9',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'En serio',
-      contextInfo: [ContextInfo]
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
     },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
@@ -19,12 +21,12 @@
       messageSecret: [Uint8Array]
     }
   },
-  body: 'En serio',
-  from: '573238686639'
+  body: 'Hola',
+  from: '5213314515327'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b409abdb-7003-4591-b587-4958569ef323',
-  keyword: 'key_fdff25d5-ee5d-495a-bbe6-580d7535c5a6',
+  ref: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  keyword: 'key_06fa181e-2392-4622-9dd3-239c4a67d146',
   answer: '🙌 Hola bienvenido mi nombre es Ana y por hoy sere la asistente de el Sr.Aldo',
   options: {
     media: null,
@@ -38,14 +40,16 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '2b957e225880226be8ef3697715baffc'
+  refSerialize: 'a690ff3a0f192f06b4a3383f19b6c026'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c2180eb4-463a-4660-9ca5-d8643ad137b8',
-  keyword: 'ans_b409abdb-7003-4591-b587-4958569ef323',
+  ref: 'ans_11f0a27f-42d3-4fcc-ab83-339d882c6013',
+  keyword: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
   answer: 'Como tipo de conversacion querias tener con Aldo el dia de hoy?\n' +
     '👉 *cita* para agendar una cita con el Sr.Aldo algun dia de la semana\n' +
+    '👉 *catalogo* lista de productos\n' +
     '👉 *proyect*  para ver la lista de los proyectos que tiene activos\n' +
+    '👉 *media* recibe informacion más visual\n' +
     '👉 *discord* unirte al discord y obten más información',
   options: {
     media: null,
@@ -55,86 +59,61 @@
     delay: 0,
     idle: null,
     ref: null,
-    nested: [],
+    nested: [ [Object], [Object] ],
     keyword: {},
     callback: false
   },
-  refSerialize: '79b917be3f88f43f8fb1dba4a904a188'
+  refSerialize: 'a978453f339c4042f5898455017da03a'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573238686639@s.whatsapp.net',
+    remoteJid: '5213314515327@s.whatsapp.net',
     fromMe: false,
-    id: '3A6374D1FB0AAADEAC58',
+    id: '809844B5BDCA0A0BC7D771A0874CB465',
     participant: undefined
   },
-  messageTimestamp: 1732582436,
-  pushName: 'Estefa ฅ⁠^⁠•⁠ﻌ⁠•⁠^⁠ฅ',
+  messageTimestamp: 1737058508,
+  pushName: 'Aldo S9',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: '?', contextInfo: [ContextInfo] },
+    protocolMessage: ProtocolMessage {
+      key: [MessageKey],
+      type: 4,
+      ephemeralExpiration: 7776000,
+      ephemeralSettingTimestamp: [Long],
+      disappearingMode: [DisappearingMode]
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
+      deviceListMetadataVersion: 2
     }
   },
-  body: '?',
-  from: '573238686639'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b409abdb-7003-4591-b587-4958569ef323',
-  keyword: 'key_fdff25d5-ee5d-495a-bbe6-580d7535c5a6',
-  answer: '🙌 Hola bienvenido mi nombre es Ana y por hoy sere la asistente de el Sr.Aldo',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '2b957e225880226be8ef3697715baffc'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c2180eb4-463a-4660-9ca5-d8643ad137b8',
-  keyword: 'ans_b409abdb-7003-4591-b587-4958569ef323',
-  answer: 'Como tipo de conversacion querias tener con Aldo el dia de hoy?\n' +
-    '👉 *cita* para agendar una cita con el Sr.Aldo algun dia de la semana\n' +
-    '👉 *proyect*  para ver la lista de los proyectos que tiene activos\n' +
-    '👉 *discord* unirte al discord y obten más información',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '79b917be3f88f43f8fb1dba4a904a188'
+  body: '',
+  from: '5213314515327'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573238686639@s.whatsapp.net',
+    remoteJid: '5213315759943@s.whatsapp.net',
     fromMe: false,
-    id: '3A1CED6F2246F2BF0D96',
+    id: '3ACDAFFD3C83B24D4DF8',
     participant: undefined
   },
-  messageTimestamp: 1732582460,
-  pushName: 'Estefa ฅ⁠^⁠•⁠ﻌ⁠•⁠^⁠ฅ',
+  messageTimestamp: 1737061206,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'Por qué Ana? JAJJAAJJAJAJAJ',
-      contextInfo: [ContextInfo]
+      text: 'Apple iPhone 13 Pro Max, 128GB, Plata (Reacondicionado) \n' +
+        ' https://a.co/d/3zUCASL',
+      matchedText: 'https://a.co/d/3zUCASL',
+      canonicalUrl: 'https://www.amazon.com.mx/dp/B09LPJLS5J/ref=cm_sw_r_cso_wa_apin_dp_SX1GC01DPCA6FN6W4NCE?newOGT=1',
+      description: 'Tu nueva superpotencia. Una pantalla superbrillante con un diseño duradero. Grabar videos dignos de Hollywood de forma fácil. Un chip ultrarrápido. Y un gran aumento en la duración de la batería que notarás todos los días.',
+      title: 'Apple iPhone 13 Pro Max, 128GB, Plata (Reacondicionado)',
+      font: 0,
+      previewType: 0,
+      thumbnailDirectPath: '',
+      thumbnailSha256: Uint8Array(0) [],
+      inviteLinkGroupTypeV2: 0
     },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
@@ -142,12 +121,13 @@
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Por qué Ana? JAJJAAJJAJAJAJ',
-  from: '573238686639'
+  body: 'Apple iPhone 13 Pro Max, 128GB, Plata (Reacondicionado) \n' +
+    ' https://a.co/d/3zUCASL',
+  from: '5213315759943'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b409abdb-7003-4591-b587-4958569ef323',
-  keyword: 'key_fdff25d5-ee5d-495a-bbe6-580d7535c5a6',
+  ref: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  keyword: 'key_06fa181e-2392-4622-9dd3-239c4a67d146',
   answer: '🙌 Hola bienvenido mi nombre es Ana y por hoy sere la asistente de el Sr.Aldo',
   options: {
     media: null,
@@ -161,14 +141,16 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '2b957e225880226be8ef3697715baffc'
+  refSerialize: 'a690ff3a0f192f06b4a3383f19b6c026'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c2180eb4-463a-4660-9ca5-d8643ad137b8',
-  keyword: 'ans_b409abdb-7003-4591-b587-4958569ef323',
+  ref: 'ans_11f0a27f-42d3-4fcc-ab83-339d882c6013',
+  keyword: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
   answer: 'Como tipo de conversacion querias tener con Aldo el dia de hoy?\n' +
     '👉 *cita* para agendar una cita con el Sr.Aldo algun dia de la semana\n' +
+    '👉 *catalogo* lista de productos\n' +
     '👉 *proyect*  para ver la lista de los proyectos que tiene activos\n' +
+    '👉 *media* recibe informacion más visual\n' +
     '👉 *discord* unirte al discord y obten más información',
   options: {
     media: null,
@@ -178,24 +160,45 @@
     delay: 0,
     idle: null,
     ref: null,
-    nested: [],
+    nested: [ [Object], [Object] ],
     keyword: {},
     callback: false
   },
-  refSerialize: '79b917be3f88f43f8fb1dba4a904a188'
+  refSerialize: 'a978453f339c4042f5898455017da03a'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573238686639@s.whatsapp.net',
+    remoteJid: '5213315759943@s.whatsapp.net',
     fromMe: false,
-    id: '3AA394A9B13165E2EF9C',
+    id: '3A14E6240DBD3DE7CE93',
     participant: undefined
   },
-  messageTimestamp: 1732582512,
-  pushName: 'Estefa ฅ⁠^⁠•⁠ﻌ⁠•⁠^⁠ฅ',
+  messageTimestamp: 1737061215,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'Proyect', contextInfo: [ContextInfo] },
+    conversation: 'Que estás haciendo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Que estás haciendo',
+  from: '5213315759943'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3A7DE04A674931546CE2',
+    participant: undefined
+  },
+  messageTimestamp: 1737061220,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    conversation: 'Proyect',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
@@ -203,11 +206,11 @@
     }
   },
   body: 'Proyect',
-  from: '573238686639'
+  from: '5213315759943'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b409abdb-7003-4591-b587-4958569ef323',
-  keyword: 'key_fdff25d5-ee5d-495a-bbe6-580d7535c5a6',
+  ref: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  keyword: 'key_06fa181e-2392-4622-9dd3-239c4a67d146',
   answer: '🙌 Hola bienvenido mi nombre es Ana y por hoy sere la asistente de el Sr.Aldo',
   options: {
     media: null,
@@ -221,15 +224,77 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '2b957e225880226be8ef3697715baffc'
+  refSerialize: 'a690ff3a0f192f06b4a3383f19b6c026'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c2180eb4-463a-4660-9ca5-d8643ad137b8',
-  keyword: 'ans_b409abdb-7003-4591-b587-4958569ef323',
+  ref: 'ans_11f0a27f-42d3-4fcc-ab83-339d882c6013',
+  keyword: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
   answer: 'Como tipo de conversacion querias tener con Aldo el dia de hoy?\n' +
     '👉 *cita* para agendar una cita con el Sr.Aldo algun dia de la semana\n' +
+    '👉 *catalogo* lista de productos\n' +
     '👉 *proyect*  para ver la lista de los proyectos que tiene activos\n' +
+    '👉 *media* recibe informacion más visual\n' +
     '👉 *discord* unirte al discord y obten más información',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a978453f339c4042f5898455017da03a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3A8C0B1D1ABBD746EB13',
+    participant: undefined
+  },
+  messageTimestamp: 1737061227,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    conversation: 'Catálogo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Catálogo',
+  from: '5213315759943'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3A7C521A5CE301F33F84',
+    participant: undefined
+  },
+  messageTimestamp: 1737061232,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cita',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Cita',
+  from: '5213315759943'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  keyword: 'key_06fa181e-2392-4622-9dd3-239c4a67d146',
+  answer: '🙌 Hola bienvenido mi nombre es Ana y por hoy sere la asistente de el Sr.Aldo',
   options: {
     media: null,
     buttons: [],
@@ -242,5 +307,402 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '79b917be3f88f43f8fb1dba4a904a188'
+  refSerialize: 'a690ff3a0f192f06b4a3383f19b6c026'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_11f0a27f-42d3-4fcc-ab83-339d882c6013',
+  keyword: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  answer: 'Como tipo de conversacion querias tener con Aldo el dia de hoy?\n' +
+    '👉 *cita* para agendar una cita con el Sr.Aldo algun dia de la semana\n' +
+    '👉 *catalogo* lista de productos\n' +
+    '👉 *proyect*  para ver la lista de los proyectos que tiene activos\n' +
+    '👉 *media* recibe informacion más visual\n' +
+    '👉 *discord* unirte al discord y obten más información',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a978453f339c4042f5898455017da03a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3A7BAC19344DC9331CE5',
+    participant: undefined
+  },
+  messageTimestamp: 1737061236,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    conversation: 'Discord',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Discord',
+  from: '5213315759943'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3A808F6980018F84CE53',
+    participant: undefined
+  },
+  messageTimestamp: 1737061242,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    conversation: 'Se te rompió',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Se te rompió',
+  from: '5213315759943'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  keyword: 'key_06fa181e-2392-4622-9dd3-239c4a67d146',
+  answer: '🙌 Hola bienvenido mi nombre es Ana y por hoy sere la asistente de el Sr.Aldo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a690ff3a0f192f06b4a3383f19b6c026'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_11f0a27f-42d3-4fcc-ab83-339d882c6013',
+  keyword: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  answer: 'Como tipo de conversacion querias tener con Aldo el dia de hoy?\n' +
+    '👉 *cita* para agendar una cita con el Sr.Aldo algun dia de la semana\n' +
+    '👉 *catalogo* lista de productos\n' +
+    '👉 *proyect*  para ver la lista de los proyectos que tiene activos\n' +
+    '👉 *media* recibe informacion más visual\n' +
+    '👉 *discord* unirte al discord y obten más información',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a978453f339c4042f5898455017da03a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3AD40158ADDEE5B75788',
+    participant: undefined
+  },
+  messageTimestamp: 1737061998,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [Array],
+      url: 'https://mmg.whatsapp.net/o1/v/t62.7118-24/f2/m231/AQO3pZOf6LbcVTzrBDJ4xbCvNGUFC2TJlXWQMRFjLKuBYqB-QIUVADwKtUP58UZEJrb3OXwcyEg58wdGGT7N66HjfbnRxI-8GLt32r9QMg?ccb=9-4&oh=01_Q5AaIKPrSVSQa7JWBLoLs4prcWZzwWT7TQQA6OmKXFx4wylC&oe=67B0DD06&_nc_sid=e6ed6c&mms3=true',
+      mimetype: 'image/jpeg',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 1600,
+      width: 739,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/o1/v/t62.7118-24/f2/m231/AQO3pZOf6LbcVTzrBDJ4xbCvNGUFC2TJlXWQMRFjLKuBYqB-QIUVADwKtUP58UZEJrb3OXwcyEg58wdGGT7N66HjfbnRxI-8GLt32r9QMg?ccb=9-4&oh=01_Q5AaIKPrSVSQa7JWBLoLs4prcWZzwWT7TQQA6OmKXFx4wylC&oe=67B0DD06&_nc_sid=e6ed6c',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      firstScanSidecar: [Uint8Array],
+      firstScanLength: 5958,
+      scansSidecar: [Uint8Array],
+      midQualityFileSha256: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_media__62d1dc00-a1f1-426e-9f4c-3fbeefcb488a',
+  from: '5213315759943'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213315759943@s.whatsapp.net',
+    fromMe: false,
+    id: '3A4C703BA3B3A9B18F35',
+    participant: undefined
+  },
+  messageTimestamp: 1737062045,
+  pushName: '𖤐꙳• 𝑅𝓊𝒷𝒾 •꙳ 𖤐',
+  broadcast: false,
+  message: Message {
+    conversation: '4,805 te debo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '4,805 te debo',
+  from: '5213315759943'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  keyword: 'key_06fa181e-2392-4622-9dd3-239c4a67d146',
+  answer: '🙌 Hola bienvenido mi nombre es Ana y por hoy sere la asistente de el Sr.Aldo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a690ff3a0f192f06b4a3383f19b6c026'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_11f0a27f-42d3-4fcc-ab83-339d882c6013',
+  keyword: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  answer: 'Como tipo de conversacion querias tener con Aldo el dia de hoy?\n' +
+    '👉 *cita* para agendar una cita con el Sr.Aldo algun dia de la semana\n' +
+    '👉 *catalogo* lista de productos\n' +
+    '👉 *proyect*  para ver la lista de los proyectos que tiene activos\n' +
+    '👉 *media* recibe informacion más visual\n' +
+    '👉 *discord* unirte al discord y obten más información',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a978453f339c4042f5898455017da03a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213339556808@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB016BB18784A2F8AEFA7',
+    participant: undefined
+  },
+  messageTimestamp: 1737063706,
+  pushName: 'Joel Martinez palacios',
+  broadcast: false,
+  message: Message {
+    conversation: 'que pedo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'que pedo',
+  from: '5213339556808'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  keyword: 'key_06fa181e-2392-4622-9dd3-239c4a67d146',
+  answer: '🙌 Hola bienvenido mi nombre es Ana y por hoy sere la asistente de el Sr.Aldo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a690ff3a0f192f06b4a3383f19b6c026'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_11f0a27f-42d3-4fcc-ab83-339d882c6013',
+  keyword: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  answer: 'Como tipo de conversacion querias tener con Aldo el dia de hoy?\n' +
+    '👉 *cita* para agendar una cita con el Sr.Aldo algun dia de la semana\n' +
+    '👉 *catalogo* lista de productos\n' +
+    '👉 *proyect*  para ver la lista de los proyectos que tiene activos\n' +
+    '👉 *media* recibe informacion más visual\n' +
+    '👉 *discord* unirte al discord y obten más información',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a978453f339c4042f5898455017da03a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213339556808@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0AE14C03E43BC0EEF4D',
+    participant: undefined
+  },
+  messageTimestamp: 1737063710,
+  pushName: 'Joel Martinez palacios',
+  broadcast: false,
+  message: Message {
+    conversation: 'tu me avisas',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'tu me avisas',
+  from: '5213339556808'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213339556808@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B78A595572AFB57D95',
+    participant: undefined
+  },
+  messageTimestamp: 1737063728,
+  pushName: 'Joel Martinez palacios',
+  broadcast: false,
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    reactionMessage: ReactionMessage {
+      key: [MessageKey],
+      text: '😮',
+      senderTimestampMs: [Long]
+    }
+  },
+  body: '',
+  from: '5213339556808'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213339556808@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C2276A5CBB08A24044',
+    participant: undefined
+  },
+  messageTimestamp: 1737064205,
+  pushName: 'Joel Martinez palacios',
+  broadcast: false,
+  message: Message {
+    conversation: 'tu o Ana?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'tu o Ana?',
+  from: '5213339556808'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  keyword: 'key_06fa181e-2392-4622-9dd3-239c4a67d146',
+  answer: '🙌 Hola bienvenido mi nombre es Ana y por hoy sere la asistente de el Sr.Aldo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a690ff3a0f192f06b4a3383f19b6c026'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_11f0a27f-42d3-4fcc-ab83-339d882c6013',
+  keyword: 'ans_dcb96cf6-d314-46c7-9446-2bb1a3b00684',
+  answer: 'Como tipo de conversacion querias tener con Aldo el dia de hoy?\n' +
+    '👉 *cita* para agendar una cita con el Sr.Aldo algun dia de la semana\n' +
+    '👉 *catalogo* lista de productos\n' +
+    '👉 *proyect*  para ver la lista de los proyectos que tiene activos\n' +
+    '👉 *media* recibe informacion más visual\n' +
+    '👉 *discord* unirte al discord y obten más información',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a978453f339c4042f5898455017da03a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213339556808@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB05B80D616F2822F0BE7',
+    participant: undefined
+  },
+  messageTimestamp: 1737064212,
+  pushName: 'Joel Martinez palacios',
+  broadcast: false,
+  message: Message {
+    conversation: 'hahaha por Disc, deja cambio de compu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'hahaha por Disc, deja cambio de compu',
+  from: '5213339556808'
 }
